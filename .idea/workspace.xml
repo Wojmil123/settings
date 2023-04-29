@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adeb6473-1ba9-4e7a-b624-30794da83888" name="Changes" comment="creating a project and main window">
-      <change afterPath="$PROJECT_DIR$/src/AppSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.java" afterDir="false" />
+    <list default="true" id="adeb6473-1ba9-4e7a-b624-30794da83888" name="Changes" comment="create top and center panel in dialog">
+      <change beforePath="$PROJECT_DIR$/src/AppSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppSettings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682770052665</updated>
-      <workItem from="1682770054001" duration="9743000" />
+      <workItem from="1682770054001" duration="10276000" />
     </task>
     <task id="LOCAL-00001" summary="creating a project and main window">
       <created>1682770684092</created>
@@ -69,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682770684092</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create top and center panel in dialog">
+      <created>1682785976707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682785976707</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating a project and main window" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating a project and main window" />
+    <MESSAGE value="create top and center panel in dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="create top and center panel in dialog" />
   </component>
 </project>

@@ -14,15 +14,19 @@ public class AppSettings {
         centerPanel2 = new JPanel();
         setCenterPanel2(centerPanel2);
         centerPanel = new JPanel();
+        centerPanel.setLayout(new BoxLayout(centerPanel, BoxLayout.Y_AXIS));
         centerPanel.add(centerPanel1);
         centerPanel.add(centerPanel2);
+        bottomPanel = new JPanel();
+        setBottomPanel(bottomPanel);
         window.add(topPanel, BorderLayout.NORTH);
         window.add(centerPanel, BorderLayout.CENTER);
+        window.add(bottomPanel, BorderLayout.SOUTH);
         setWindow(window);
     }
 
     private void setWindow(JDialog dialog){
-        dialog.setMinimumSize(new Dimension(400, 700));
+        dialog.setMinimumSize(new Dimension(400, 410));
         dialog.setVisible(true);
     }
 
@@ -84,5 +88,18 @@ public class AppSettings {
         panel.add(languages);
         panel.add(c1);
         panel.add(c2);
+    }
+
+    private void setBottomPanel(JPanel panel){
+        panel.setBorder(BorderFactory.createTitledBorder("GUI"));
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
+        JCheckBox c1 = new JCheckBox("Ukryj menu główne");
+        JCheckBox c2 = new JCheckBox("Odpięty pasek narzędziowy");
+        JCheckBox c3 = new JCheckBox("Zablokuj pasek narzędziowy");
+        JCheckBox c4 = new JCheckBox("Tryb ciemny");
+        panel.add(c1);
+        panel.add(c2);
+        panel.add(c3);
+        panel.add(c4);
     }
 }
